@@ -3,7 +3,7 @@ $light_gray: #C0C1C1;
 $green: #33CD99;
 
 #banner {
-	background-image: url(image_path("welcome_banner_image.jpg"));
+	background-image: url(image_path("escritorio.jpg"));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -16,14 +16,14 @@ $green: #33CD99;
 		text-align: center;
 		h1 {
 			//@include bold_font;
-			color: white;
+			color: $light_gray;
 			font-size: 3.5rem;
 			margin: 0;
 		}
 		p {
 			font-size: 1.5rem;
 			margin: 0 0 2.5rem 0;
-			color: rgba(250, 250, 250, 0.5);
+			color: #a3b1b2;
 		}
 	}
 }

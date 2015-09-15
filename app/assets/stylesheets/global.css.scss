@@ -4,7 +4,6 @@ $green: #33CD99;
 
 .container{
 	width:80%;
-	margin:0 auto;
 }
 
 @mixin bold_font {
@@ -125,4 +124,8 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 textarea {
 	min-height: 200px;
+}
+
+#callouts{
+	background: $green;
 }
